@@ -18,8 +18,19 @@ To use the script:
 1. Run the Python script in your terminal or IDE.
 2. Follow the prompts to select items from the menu, specify quantities, and complete your order.
 
+## Example
+Here's an example of how to use the script:
+
+1. Run the Python script in your terminal or IDE.
+2. Choose the desired category from the menu (e.g., "Meals").
+3. Select the items you want to order (e.g., "Burrito", "Sushi").
+4. Enter the quantity for each selected item.
+5. Continue ordering or finish your order.
+6. Review the receipt to verify your order and total cost.
+
 ## Author
 This Python script was written by Howard Dixon.
 
 Feel free to reach out for any questions or feedback!
+
 
