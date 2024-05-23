@@ -48,6 +48,6 @@ Here's an example of how to use the script:
 ## Author
 This Python script was written by Howard Dixon.
 
-Feel free to reach out for any questions or feedback!
+
 
 
