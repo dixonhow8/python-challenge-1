@@ -6,6 +6,23 @@ This Python script simulates a food ordering system for Bridget's Variety Food T
 ## Menu Dictionary
 The script uses a dictionary named `sub_menu` to store the menu items and their prices. The menu is structured into different categories such as snacks, meals, drinks, and desserts. Each category contains a list of items along with their respective prices.
 
+## Script Structure
+The script is structured into the following main components:
+- **Menu Definition:** The `sub_menu` dictionary contains the menu items and their prices.
+- **Ordering Process:** The main loop of the script allows customers to select items, specify quantities, and complete their order.
+- **Print Functions:** The `print_menu` function is responsible for displaying the menu to the customer, and the script also includes functions to print the customer's order and total cost.
+
+## Function Documentation
+
+### `print_menu(menu)`
+Prints the sub-menu.
+
+**Arguments:**
+- `menu` (dict): The dictionary containing the menu items and prices.
+
+**Returns:**
+- None
+
 ## Ordering Process
 1. Upon launching the script, customers are greeted and presented with the menu.
 2. Customers can choose a category from the menu and select items they want to order.
