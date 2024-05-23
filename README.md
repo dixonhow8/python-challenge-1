@@ -1,4 +1,5 @@
-# **Python Assignment 1: Bridget's Variety Food Truck**
+# **Python-Challenge-1**
+# **Bridget's Variety Food Truck**
 
 ## Description
 This Python script simulates a food ordering system for Bridget's Variety Food Truck. Customers can select items from various categories such as snacks, meals, drinks, and desserts. They can then specify the quantity for each item and place their order. The script calculates the total cost of the order and displays it in a receipt format.
