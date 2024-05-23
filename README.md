@@ -18,10 +18,15 @@ The script is structured into the following main components:
 Prints the sub-menu.
 
 **Arguments:**
-- `menu` (dict): The dictionary containing the menu items and prices.
+The script does not take any command-line arguments. All interactions are conducted via user input during the execution of the script.
 
 **Returns:**
-- None
+The script returns the following information to the user:
+
++ A greeting message.
++ A printed menu for item selection.
++ Prompts for item selection and quantity.
++ A receipt showing the ordered items, their prices, quantities, and the total cost.
 
 ## Ordering Process
 1. Upon launching the script, customers are greeted and presented with the menu.
