@@ -32,7 +32,7 @@ Prints the sub-menu.
 
 ## Usage
 To use the script:
-1. Run the Python script in your terminal or IDE.
+1. Run the Python script in your terminal or Integrated Development Environmen(IDE).
 2. Follow the prompts to select items from the menu, specify quantities, and complete your order.
 
 ## Example
