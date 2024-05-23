@@ -123,19 +123,19 @@ while place_order:
             print(f"'{menu_selection}' does not contain valid items.")
     else:
         print(f"'{menu_selection}' is not a valid menu category.")
-
     while True:
-        # Ask the customer if they would like to order anything else
-        keep_ordering = input("Would you like to keep ordering? (Y)es or (N)o: ")
-        if keep_ordering.lower() == 'y':
-            place_order = True
-            break
-        elif keep_ordering.lower() == 'n':
-            place_order = False
-            print("Thank you for your order")
-            break
-        else:
-            print("Please try again because that wasn't a valid input.")
+        #Ask the customer if they would like to order anything else
+        keep_ordering = input("Would you like to keep ordering? (Y)es or (N)o: ").lower()
+        match keep_ordering:
+            case 'y':
+                place_order = True
+                break
+            case 'n':
+                place_order = False
+                print("Thank you for your order")
+                break
+            case _:
+                print("Please try again because that wasn't a valid input.")
 
 # Print out the customer's order
 print("This is what we are preparing for you.\n")
@@ -157,5 +157,5 @@ for order in order_list:
     print(f"{item_name}{item_name_spaces}| ${price:.2f}{price_spaces}| {quantity}{quantity_spaces}")
 
 # Calculate and display the total cost
-total_cost = sum(order['Price'] * order['Quantity'] for order in order_list)
+total_cost = sum([order['Price'] * order['Quantity'] for order in order_list])
 print(f"\nTotal cost: ${total_cost:.2f}")
